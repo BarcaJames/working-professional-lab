@@ -7,5 +7,5 @@ public abstract class Tool {
 		this.brand = brand;
 	}
 	
-	public boolean fix (BreakableItem item);
+	public abstract boolean fix (BreakableItem item);
 }
