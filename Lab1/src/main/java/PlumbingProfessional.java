@@ -1,7 +1,7 @@
 
-public class PlummingProfessional extends Professional{
+public class PlumbingProfessional extends Professional implements IPlumbingProfessional{
 
-	public PlummingProfessional(String name) {
+	public PlumbingProfessional(String name) {
 		super(name);
 		// TODO Auto-generated constructor stub
 	}
@@ -11,6 +11,8 @@ public class PlummingProfessional extends Professional{
 		// TODO Auto-generated method stub
 		
 	}
+	
+	
 
 	
 
