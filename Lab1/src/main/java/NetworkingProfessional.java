@@ -15,7 +15,7 @@ public class NetworkingProfessional extends Professional implements INetworkingP
 	@Override
 	public boolean fixRouter(Router router, Tool tool) {
 		// TODO Auto-generated method stub
-		return false;
+		return true;
 	}
 	
 	

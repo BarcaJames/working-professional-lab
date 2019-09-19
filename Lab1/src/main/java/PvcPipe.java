@@ -8,6 +8,11 @@ public class PvcPipe extends Pipe{
 		// TODO Auto-generated method stub
 		
 	}
-
+	
+	public PvcPipe(float length, float diameter, String colour) {
+		super(length, diameter);
+		this.colour = colour;
+	}
+	
 	
 }

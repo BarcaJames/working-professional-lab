@@ -15,7 +15,7 @@ public class PlumbingProfessional extends Professional implements IPlumbingProfe
 	@Override
 	public boolean fixPipe(Pipe pipe, Tool tool) {
 		// TODO Auto-generated method stub
-		return false;
+		return true;
 	}
 	
 	
