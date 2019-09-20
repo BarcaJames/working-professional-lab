@@ -4,8 +4,16 @@ public abstract class Tool {
 
 	public Tool(String brand) {
 		super();
-		this.brand = brand;
+		this.setBrand(brand);
 	}
 	
 	public abstract boolean fix (BreakableItem item);
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
 }
