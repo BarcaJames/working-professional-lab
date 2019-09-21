@@ -8,7 +8,7 @@ public class NetworkingProfessionalTest {
 	
 	Tool plier = new Pliers("Crimping");
 	
-	Router router = new CiscoRouter(); 
+	Router router = new CiscoRouter(52); 
 	
 	@Test
 	public void shouldReturnTrue() {
