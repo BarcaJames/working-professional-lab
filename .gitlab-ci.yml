@@ -20,7 +20,7 @@ build:
     - mvn $MAVEN_CLI_OPTS compile
     - mvn $MAVEN_CLI_OPTS install
     - cd ..
-    - cd Lab1_Con
+    - cd Lab1
     - mvn $MAVEN_CLI_OPTS compile
 
 test:
